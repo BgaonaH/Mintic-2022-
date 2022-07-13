@@ -1,0 +1,66 @@
+if jugador1[1] == tombola[1] != jugador2[1]:
+    lazamiento2 = "C"
+elif jugador1[1] != tombola[1] == jugador2[1]:
+    lanzamiento2 = "E"
+elif jugador1[1] == tombola[1] == jugador2[1]:
+    lanzamiento2 = "T"
+
+ lanzamiento1 + lanzamiento2
+
+print(lanzamiento1)
+
+for i in range (3):
+    if jugador1[i] == tombola[i] != jugador2[i]:
+        lanzamiento = "C"
+    elif jugador1[i] != tombola[i] == jugador2[i]:
+        lanzamiento = "E"
+    elif jugador1[i] == tombola[i] == jugador2[i]:
+        lanzamiento = "T"
+    lanzamiento += lanzamiento 
+
+print(lanzamiento)
+
+
+
+if jugador1[1] == tombola[1] != jugador2[1]:
+    lanzamiento2 = "C"
+elif jugador1[1] != tombola[1] == jugador2[1]:
+    lanzamiento2 = "E"
+elif jugador1[1] == tombola[1] == jugador2[1]:
+    lanzamiento2 = "T"
+
+print(lanzamiento1+lanzamiento2)
+
+
+for i in range(7):
+    if jugador1[i] == tombola[i] != jugador2[i]:
+        lanzamiento1 = "C"
+    elif jugador1[i] != tombola[i] == jugador2[i]:
+        lanzamiento1 = "E"
+    elif jugador1[i] == tombola[i] == jugador2[i]:
+        lanzamiento1 = "T"
+    lanzamiento+=lanzamiento1 
+    
+print("hola")
+print(lanzamiento)
+    
+if puntajeAcumuladoJugador1 > puntajeAcumuladoJugador2:
+        lanzamiento1 = "C"
+    elif puntajeAcumuladoJugador1 < puntajeAcumuladoJugador2:
+        lanzamiento1 = "E"
+    elif puntajeAcumuladoJugador1 == puntajeAcumuladoJugador2:
+        lanzamiento1 = "T"
+    
+    lanzamiento+=lanzamiento1 
+
+    print(lanzamiento)
+
+     
+    if puntos1>puntos2:
+        lanzamiento1 = "C"
+    elif puntos1<puntos2:
+        lanzamiento1 = "E"
+    elif puntos1==puntos2:
+        lanzamiento1 = "T"
+
+        listaGrupos = [[(lst)] if lst in enumerate.cadena(lst) else lst for lst in cadena  ]
